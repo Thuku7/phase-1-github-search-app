@@ -1,9 +1,9 @@
 // variables
-let formSubmit = document.getElementById('main')
+let formSubmit = document.getElementById('github-form');
 
 
 
-console.log(formSubmit)
+
 
 
 
@@ -13,6 +13,8 @@ console.log(formSubmit)
 
 
 //eventListeners
+
+formSubmit.addEventListener('click', formSubmittedData)
 
 
 
