@@ -24,3 +24,8 @@ formSubmit.addEventListener('click', formSubmittedData)
 
 
 //functions
+
+
+function formSubmittedData(event) {
+  event.preventDefault();
+}
